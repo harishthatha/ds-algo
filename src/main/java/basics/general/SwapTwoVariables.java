@@ -10,7 +10,7 @@ public class SwapTwoVariables {
     }
 
     public String[] swap(String text1,String text2){
-        // ** end index is excluded in substring
+        // ** end index is excluded in substring ##
         text1=text1+text2;
         text2=text1.substring(0,text1.length()-text2.length());
         text1=text1.substring(text2.length(),text1.length());
